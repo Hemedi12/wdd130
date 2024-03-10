@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+Palette URL: <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c" target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a>
+    body {
+      font-family: var(--paragraph-font);
+      max-width:960px;
+      padding:20px;
+    }
+    
+    :root {
+      --primary-color: #dea54b;
+      --secondary-color: #177365;
+      --accent1-color: ##177365;
+      --accent2-color: ##177365;
+    
+      --heading-font: '______', serif;
+      --paragraph-font: '______', serif;
+    
+      --nav-background-color: #dea54b;
+      --nav-link-color: #dea54b;
+      --nav-hover-link-color: #406DD6;
+      --nav-hover-background-color: #3A1772;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+      color: var(--primary-color);
+    }
+    header {
+      padding: 20px;
+      background-color: var(--accent1-color);
+    }
+    p {
+      padding: 25px;
+    }
+    nav {
+      background-color: var(--nav-background-color);
+      font-size: 1.2rem;
+      display: flex;
+    }
+    
+    nav a {
+      display: block;
+      color: var(--nav-link-color);
+      text-decoration: none;
+      padding: 1rem;
+    }
+    
+    nav a:link, nav a:visited {
+      color: var(--nav-link-color);
+    }
+    
+    nav a:hover {
+      color: var(--nav-hover-link-color);
+      background-color: var(--nav-hover-background-color);
+    }
