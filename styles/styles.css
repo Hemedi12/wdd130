@@ -15,7 +15,7 @@ nav a {
 
 h1 {
   color: steelblue;
-  border-bottom:  3px;
+
 }
 
 img {
@@ -29,10 +29,7 @@ img {
 p {
   padding: 10px;
 }
-main {
-/* max-width:840px; */
 
-}
 aside{
 /*width : 20rem;
 margin: 1rem;
@@ -94,7 +91,7 @@ body{
 header, footer {
   max-width: 840px;
   margin: 0 auto;
-  text-align: justify;
+  
 }
 
 nav {
@@ -120,7 +117,7 @@ max-width: 840px;
 margin:0px auto;
 
 }
-k
+
 .grid {
   display: grid;
   align-items: center;
@@ -136,4 +133,17 @@ aside {
   position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+header{
+
+  text-align: justify;
+
+}
+footer{
+  text-align: center;
+}
+
+h1{
+  border-bottom: 1px solid blue;
 }
