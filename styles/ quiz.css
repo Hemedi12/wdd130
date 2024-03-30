@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Ojuju:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rosarivo:ital@0;1&family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+    body {
+        font-family: "Ojuju", sans-serif;
+        font-size: 1.2em;
+        color: #333;
+        background:black;
+        }
+        form {
+            width: 700px;
+            margin: 0 auto;
+            padding: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            background-color: #eee;
+            display: grid;
+        }
+        h1{
+            text-align: left;
+            color: blue;
+            margin-left: 300px;
+        }
+    ol li{
+        margin-left: 10px;
+    }
+    p {
+
+        width: 230px;
+        background-color: black;
+        color: #eee;
+        margin-bottom: 10px;
+        font-size:0.8rem ;
+        margin-left: 90px;
+        padding: 10px;
+    }
+    label {
+        text-align: right;
+        padding-right: 1rem;
+        }
+    input[type ="submit"]
+        {
+
+            background-color:blue;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    h3{
+        text-align: center;
+        font-weight: normal;
+        color: aliceblue;
+    }
+ form input,textarea, select{
+ 
+width: 100%;
+padding: 20px;
+
+    }
+h1 input {
+    padding: 20px;
+}
