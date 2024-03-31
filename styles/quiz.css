@@ -71,3 +71,6 @@ padding: 20px;
 h1 input {
     padding: 20px;
 }
+legend{
+    font-weight:bold;
+}

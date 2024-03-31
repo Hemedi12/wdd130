@@ -167,3 +167,65 @@ footer p{
 
   text-align: center;
 }
+
+ img{
+  width: 200px;
+  height: 150px;
+}
+main{
+            width: 700px;
+            margin: 0 auto;
+            padding: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background-color: #eee;
+}
+.images{
+  display: flex;
+}
+form {
+  width: 685px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+input[type ="submit"]
+{
+
+    background-color:#606c38;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+input .purpose{
+
+  text-align: left;
+}
+form input[type="text"],textarea{
+ 
+  width: 80%;
+border: 3px;
+}
+section{
+  text-align: center;
+}
+section ul li {
+  list-style: none;
+  font-size: 10px;
+  
+}
+iframe{
+  width:80%;
+  height: 80px;
+}
+section p, legend{
+  font-weight: bold;
+  font-size:25px;
+  color: #283618;
+}
