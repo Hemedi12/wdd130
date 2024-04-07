@@ -62,7 +62,7 @@ section > img{
 }
 
 h1, h2{
-  background-color:none;
+
   color:black;
   text-align: center;
 }
@@ -217,7 +217,5 @@ section p, legend{
   width: 200px;
   height: 100px;
   padding: 5px;
-
- 
 }
 #place 
