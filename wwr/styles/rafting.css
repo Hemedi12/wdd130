@@ -14,7 +14,7 @@
     --nav-hover-background-color: #e5e5e5;
   }
 
-
+/*INDEX Page*/
   body{
     padding: 0px;
     width: 100vw;
@@ -152,6 +152,9 @@ footer{
     text-align: center;
     color: white;
 }
+
+
+/* CONTACT page*/
 .sociallinks{
 display: flex;
 flex-direction: row;
@@ -205,7 +208,7 @@ section p, legend{
   font-size:25px;
   color: #283618;
 }
-
+/*TRIPS page*/
 #trip h2{
   background-color:#202020;
   width:170px;
@@ -218,4 +221,4 @@ section p, legend{
   height: 100px;
   padding: 5px;
 }
-#place 
+
